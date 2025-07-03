@@ -3,11 +3,3 @@
   --font-serif: "Lora", serif; /* Featured quotes, standout sections */
   --font-body: "Roboto", sans-serif; /* Paragraphs, captions, form labels */
 }
-
-h1 {
-  font-family: var(--font-sans);
-}
-
-h3 {
-  font-family: var(--font-serif);
-}
