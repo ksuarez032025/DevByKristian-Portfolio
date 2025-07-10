@@ -2,4 +2,80 @@
   --font-sans: "Poppins", sans-serif; /* Headings, nav, CTA buttons */
   --font-serif: "Lora", serif; /* Featured quotes, standout sections */
   --font-body: "Roboto", sans-serif; /* Paragraphs, captions, form labels */
+  --primary-background-color: #f3f9fb;
+  --text-color: #474f85;
+  --text-color-dark: #555879;
+  --text-color-standout: #98a1bc;
+  --highlight-color: #e9e5ee;
+  --accent-color: #91d9ce;
+  --banner-color-1: #f4ebd3;
+  --banner-color-2: #ded3c4;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  background-color: var(--primary-background-color);
+  color: var(--text-color);
+  font-family: var(--font-sans);
+  text-align: center;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+.hero-content {
+  background-color: var(--banner-color-1);
+  padding: 130px 15px;
+}
+
+.hero-subtitle,
+.tagline {
+  font-size: 30px;
+  line-height: 1.5;
+}
+
+.hero-subtitle {
+  font-weight: 500;
+}
+
+.tagline {
+  font-family: var(--font-serif);
+  font-weight: 400;
+}
+
+.intro {
+  background-color: var(--primary-background-color);
+  padding: 100px 25px 60px 25px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.intro h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: var(--text-color);
+}
+
+.intro p {
+  font-size: 20px;
+  line-height: 32px;
+  color: var(--text-color-dark);
+  margin-bottom: 25px;
+}
+
+.contact-button {
+  background: var(--text-color);
+  color: var(--highlight-color);
+  box-shadow: var(--box-shadow);
+  font-size: 18px;
+  line-height: 27px;
+  border-radius: 4px;
+  padding: 15px 25px;
+}
+
+.contact-button:hover {
+  background-color: var(--text-color);
+  color: var(--accent-color);
+  transition: all 150ms ease-in-out;
 }
