@@ -46,7 +46,7 @@ h1 {
 
 .intro {
   background-color: var(--primary-background-color);
-  padding: 100px 25px 60px 25px;
+  padding: 60px 25px 60px 25px;
   max-width: 900px;
   margin: 0 auto;
 }
@@ -64,7 +64,8 @@ h1 {
   margin-bottom: 25px;
 }
 
-.contact-button {
+.portfolio-button,
+.project-links {
   background: var(--text-color);
   color: var(--highlight-color);
   box-shadow: var(--box-shadow);
@@ -74,7 +75,8 @@ h1 {
   padding: 15px 25px;
 }
 
-.contact-button:hover {
+.portfolio-button:hover,
+.project-links:hover {
   background-color: var(--text-color);
   color: var(--accent-color);
   transition: all 150ms ease-in-out;
