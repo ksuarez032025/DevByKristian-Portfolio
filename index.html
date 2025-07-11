@@ -16,14 +16,10 @@
     integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
     crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/eb0487aa11.js" crossorigin="anonymous"></script>
-
-  <title>Document</title>
+  <title>Kristian Suarez | Front-End Developer Portfolio</title>
 </head>
 
 <body>
-  <header>
-
-  </header>
   <section class="hero">
     <div class="hero-content">
       <h1 id="hero-title">Kristian Suarez</h1>
@@ -31,67 +27,89 @@
       <p class="mb-4 tagline">Driven by Curiosity. Focused on Impact.</p>
       <div><a href="/index.html#featured-projects" class="btn portfolio-button">Featured Projects</a>
       </div>
-
     </div>
   </section>
 
   <section class="intro">
     <h2 id="intro-title">Welcome to My Portfolio</h2>
-    <p>
-      Hi, I’m Kristian Suarez, a developer with a background in credit unions, payments, and problem solving.
-      After
-      years of working alongside tech teams to bring company wide solutions to life, I realized <em> I wanted to
-        be the
-        one building them.</em>
+    <!--Full intro - first <p> hidden on small screens-->
+    <p class="d-none d-md-block">
+      Hi, I’m Kristian Suarez, a developer with a background in Credit Unions, Payments, and problem solving.
+      After years of working alongside tech teams to bring company wide solutions to life, I realized <em> I wanted to
+        be the one building them.</em>
     </p>
-    <p>
+    <!-- Mobile intro on small screens -->
+    <p class="d-block d-md-block">
       This portfolio highlights the skills I’ve gained through hands-on projects, from my first lines of code to
-      fully
-      built multi-page websites. It’s a snapshot of my growth, curiosity, and dedication to writing thoughtful,
+      fully built multi-page websites. It’s a snapshot of my growth, curiosity, and dedication to writing thoughtful,
       efficient code and a step toward contributing to teams that create meaningful impact.
     </p>
-
-
   </section>
-  <div>
-    <a href="#" class="btn portfolio-button">View Portfolio</a>
-  </div>
-  <div class="container" id="featured-projects">
-    <div class="row mt-5">
-      <div class="col-sm-4">
-        <img src="/img/intro_AI_project.jpg" alt="AI-recipe-generator-image" loading="lazy"
-          class="img-thumbnail shadow p-2 mb-2" />
-        <p>
-        </p>
-        <a href="https://www.shecodes.io/cohorts/2521/projects/2602244?_gl=1*19ncmzr*_gcl_au*MTk5NTMyMDM1MS4xNzUwNzkxODY4"
-          alt="AI-recipe-link" target="_blank" class="btn project-links">AI Recipe Generator</a>
-      </div>
-      <div class="col-sm-4">
-        <img src="/img/web_dev_weatherapp_project.jpg" alt="weather-app-image" loading="lazy"
-          class="img-thumbnail shadow p-2 mb-2" />
-        <p>
 
-        </p>
-        <a href="https://www.shecodes.io/cohorts/2471/projects/2600262?_gl=1*1sxu7da*_gcl_au*MTk5NTMyMDM1MS4xNzUwNzkxODY4"
-          alt="weather-app-link" target="_blank" class="btn project-links">Weather App</a>
-      </div>
-      <div class="col-sm-4">
-        <img src="/img/advanced_web_dev_project.jpg" alt="world-clock-image" loading="lazy"
-          class="img-thumbnail shadow p-2 mb-2" />
-        <p>
 
-        </p>
-        <a href="https://www.shecodes.io/cohorts/2553/projects/2610989?_gl=1*1f85wno*_gcl_au*MTk5NTMyMDM1MS4xNzUwNzkxODY4"
-          alt="world-clock-link" target="_blank" class="btn project-links">World Clock</a>
+
+  <section class="featured-projects" id="featured-projects">
+    <div class="container d-md-block">
+      <div class="row mt-4 mb-4">
+        <div class="col-sm-4">
+          <a href="https://www.shecodes.io/cohorts/2521/projects/2602244?_gl=1*19ncmzr*_gcl_au*MTk5NTMyMDM1MS4xNzUwNzkxODY4"
+            alt="AI-recipe-link" target="_blank" class="btn mb-3 project-links">AI Recipe Generator</a>
+          <img src="/img/intro_AI_project.jpg" alt="AI-recipe-generator-image" loading="lazy"
+            class="img-thumbnail shadow p-2 mb-4 d-none d-md-block" />
+          <ul class="project-skills">
+            <p>Key Features / Skills Learned:</p>
+            <li><i class="fa-solid fa-check"></i> Learned prompt engineering techniques</li>
+            <li><i class="fa-solid fa-check"></i> Applied advanced JavaScript for API requests</li>
+            <li><i class="fa-solid fa-check"></i> Deployed and managed project on GitHub & Netlify</li>
+          </ul>
+        </div>
+
+        <div class="col-sm-4">
+          <a href="https://www.shecodes.io/cohorts/2471/projects/2600262?_gl=1*1sxu7da*_gcl_au*MTk5NTMyMDM1MS4xNzUwNzkxODY4"
+            alt="weather-app-link" target="_blank" class="btn mb-3 project-links">Weather App</a>
+          <img src="/img/web_dev_weatherapp_project.jpg" alt="weather-app-image" loading="lazy"
+            class="img-thumbnail shadow p-2 mb-4 d-none d-md-block" />
+          <ul class="project-skills">
+            <p>Key Features / Skills Learned:</p>
+            <li><i class=" fa-solid fa-check"></i> Advanced JavaScript (ES6) for
+              interactive apps</li>
+            <li><i class=" fa-solid fa-check"></i> Integrated live API to fetch
+              real-time weather data</li>
+            <li><i class=" fa-solid fa-check"></i> Used Git and GitHub for code
+              management</li>
+          </ul>
+
+        </div>
+        <div class="col-sm-4">
+          <a href="https://www.shecodes.io/cohorts/2553/projects/2610989?_gl=1*1f85wno*_gcl_au*MTk5NTMyMDM1MS4xNzUwNzkxODY4"
+            alt="world-clock-link" target="_blank" class="btn mb-3 project-links">World Clock</a>
+          <img src="/img/advanced_web_dev_project.jpg" alt="world-clock-image" loading="lazy"
+            class="img-thumbnail shadow p-2 mb-4 d-none d-md-block" />
+          <ul class="project-skills">
+            <p>Key Features / Skills Learned:</p>
+            <li><i class="fa-solid fa-check"></i> Advanced JavaScript techniques</li>
+            <li><i class="fa-solid fa-check"></i> Built a world clock with interactive features</li>
+            <li><i class="fa-solid fa-check"></i> Created sophisticated interactions and advanced project features</li>
+          </ul>
+
+        </div>
       </div>
     </div>
-  </div>
+  </section>
 
+  <div>
+    <a href="#" class="btn portfolio-button">View Full Portfolio</a>
   </div>
 
   <footer>
-    <i class="fa-brands fa-linkedin"></i>
-    <i class="fa-brands fa-github"></i>
+    <div class="social-links d-flex justify-content-center">
+      <a href="https://www.linkedin.com/in/kristian-suarez-dev/" target="_blank" title="LinkedIn Profile"><i
+          class="fa-brands fa-linkedin"></i></a>
+      <a href="mailto:kbsuarez626@gmail.com" target="_blank" title="Email Contact"><i
+          class="fa-regular fa-envelope"></i></a>
+      <a href="https://github.com/ksuarez032025" target="_blank" title="GitHub Profile"><i
+          class="fa-brands fa-github"></i></a>
+    </div>
   </footer>
 
 
