@@ -20,6 +20,11 @@ body {
   text-align: center;
 }
 
+.navbar-brand {
+  font-family: var(--font-serif);
+  color: var(--text-color-dark);
+}
+
 h1 {
   font-size: 96px;
 }
