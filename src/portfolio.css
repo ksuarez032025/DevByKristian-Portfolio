@@ -31,7 +31,7 @@ h1 {
 
 .hero-content {
   background-color: var(--banner-color-1);
-  padding: 130px 15px;
+  padding: 160px 20px;
 }
 
 .hero-subtitle,
@@ -44,7 +44,8 @@ h1 {
   font-weight: 500;
 }
 
-.tagline {
+.tagline,
+.about-professional h2 {
   font-family: var(--font-serif);
   font-weight: 400;
 }
@@ -111,6 +112,22 @@ h1 {
   padding: 1px 0;
 }
 
+.about-professional {
+  padding: 120px 20px;
+}
+
+.about-professional h1 {
+  font-size: 60px;
+}
+
+.about-hero {
+  border-bottom: 2px dashed var(--accent-color);
+}
+
+.about-professional img {
+  border-radius: 50%;
+}
+
 footer {
   background-color: var(--banner-color-1);
   font-size: 32px;
@@ -152,11 +169,13 @@ footer {
     font-weight: 500;
   }
 
-  .intro h2 {
-    font-size: 20px;
+  .intro h2,
+  .mobile-professional h2 {
+    font-size: 22px;
   }
 
-  .intro p {
+  .intro p,
+  .mobile-professional p {
     font-size: 18px;
     line-height: 1.5;
   }
@@ -172,5 +191,9 @@ footer {
 
   .project-skills {
     font-size: 18px;
+  }
+
+  .about-hero {
+    text-align: center;
   }
 }
