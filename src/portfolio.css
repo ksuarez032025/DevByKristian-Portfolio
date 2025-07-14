@@ -120,12 +120,17 @@ h1 {
   font-size: 60px;
 }
 
+.about-hero a {
+  text-decoration: none;
+}
+
 .about-hero {
   border-bottom: 2px dashed var(--accent-color);
 }
 
 .about-professional img {
   border-radius: 50%;
+  border: 5px double var(--banner-color-2);
 }
 
 footer {
