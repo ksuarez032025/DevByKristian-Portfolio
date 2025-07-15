@@ -46,7 +46,8 @@ h1 {
 }
 
 .tagline,
-.about-professional h2 {
+.about-professional h2,
+.about-personal h4 {
   font-family: var(--font-serif);
   font-weight: 400;
 }
@@ -130,8 +131,12 @@ h1 {
 }
 
 .about-professional img {
-  border-radius: 50%;
   border: 5px double var(--banner-color-2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about-personal {
+  background-color: #91d9ce41;
 }
 
 .card:hover {
