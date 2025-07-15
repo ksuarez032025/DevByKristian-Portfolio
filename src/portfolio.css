@@ -24,6 +24,7 @@ body {
 .navbar-brand {
   font-family: var(--font-serif);
   color: var(--text-color-dark);
+  font-weight: 500;
 }
 
 h1 {
@@ -157,7 +158,6 @@ h1 {
 }
 
 footer {
-  background-color: var(--banner-color-1);
   font-size: 32px;
   margin-top: 25px;
   padding: 20px 15px;
