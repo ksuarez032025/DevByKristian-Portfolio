@@ -158,6 +158,14 @@ h1 {
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
+.contact-info form {
+  background-color: rgba(222, 211, 196, 0.4);
+  border-radius: 6px;
+  box-shadow: var(--box-shadow);
+  margin: 20px;
+  padding: 20px;
+}
+
 footer {
   font-size: 32px;
   margin-top: 25px;
@@ -167,6 +175,7 @@ footer {
 .social-links a {
   color: var(--text-color-dark);
   background-color: var(--banner-color-2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   font-size: 26px;
   border-radius: 50%;
   margin: 0 20px;
