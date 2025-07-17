@@ -42,7 +42,8 @@ h1 {
 }
 
 .hero-subtitle,
-.tagline {
+.tagline,
+.career-intro p {
   font-size: 30px;
   line-height: 1.5;
 }
@@ -53,7 +54,8 @@ h1 {
 
 .tagline,
 .about-professional h2,
-.about-personal h4 {
+.about-personal h4,
+.career-intro p {
   font-family: var(--font-serif);
   font-weight: 400;
 }
@@ -177,11 +179,14 @@ h1 {
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: var(--accent-color);
+  background-color: rgba(222, 211, 196, 0.4);
+  color: var(--text-color);
+  font-weight: 600;
+  box-shadow: none;
 }
 
 .custom-highlight {
-  background-color: var(--accent-color);
+  background-color: #91d9ce41;
 }
 
 footer {
@@ -212,16 +217,19 @@ footer {
     line-height: 1.5;
   }
 
-  .hero-content {
+  .hero-content,
+  .about-professional {
     padding: 80px 15px;
   }
 
   .hero-subtitle,
-  .tagline {
+  .tagline,
+  .career-intro p {
     font-size: 20px;
   }
 
-  .tagline {
+  .tagline,
+  .career-intro p {
     font-weight: 500;
   }
 
