@@ -32,8 +32,13 @@ h1 {
 }
 
 .hero-content {
-  background-color: var(--banner-color-1);
-  padding: 80px 20px;
+  background: linear-gradient(
+    to bottom,
+    #91d9ce85 0%,
+    #91d9ce85 65%,
+    #f3f9fb 100%
+  );
+  padding: 80px;
 }
 
 .hero-subtitle,
@@ -86,8 +91,8 @@ h1 {
 
 .portfolio-button:hover,
 .project-links:hover {
-  background-color: var(--text-color);
-  color: var(--accent-color);
+  background-color: var(--text-color-standout);
+  color: var(--text-color);
   transition: all 150ms ease-in-out;
 }
 
@@ -164,6 +169,19 @@ h1 {
   box-shadow: var(--box-shadow);
   margin: 20px;
   padding: 20px;
+}
+
+.accordion li {
+  text-align: start;
+  line-height: 1.5;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--accent-color);
+}
+
+.custom-highlight {
+  background-color: var(--accent-color);
 }
 
 footer {
